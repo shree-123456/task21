@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <style>
+    .main{
+        background-image: url(car.webp);
+        height: 1000px;
+       
+        background-repeat: no-repeat;
+        background-size:cover;
+        position: relative;
+        padding: 250px;
+      
+    }
+
+.sp{
+    height:300px;
+    width: 800px;
+    background-color: aqua;
+    /* border: 1px solid black; */
+    /* align-items: center; */
+    margin:180px;    
+}
+.sp1{
+    display: flex;
+    gap: 20px;
+    padding:10px;
+}
+.items{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap:1px;
+}
+
+.sp2:hover{
+ color: grey;
+ height: 25px;
+ width: 180px;
+ 
+}
+b{
+    border: 1px solid black;
+    background-color: orange;
+}
+.sp2{
+    padding-left: 10px;
+}
+.sl{
+    padding-left: 10px;
+}
+.sl1{
+    padding-left: 10px;
+}
+.slvp{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.items4{
+    position: absolute;
+    left:820px;
+    top:1460px;
+}
+.items5{
+    position: relative;
+    left: 1250px;
+    bottom: 300px;
+}
+.slp{
+    display: flex;
+    gap: 10px;
+}
+.slp1:hover{
+background-color: grey;
+height: 20px;
+width: 100px;
+}
+.slp2:hover{
+background-color: grey;
+height: 20px;
+width: 100px;
+}
+.slp3{
+    border: 1px solid black;
+    height: 250px;
+    width: 150vh;
+    background-color:rgba(128, 128, 128, 0.511);
+    margin: 200px;
+}
+.slp3:hover{
+    background-color:black;
+}
+.slp4{
+    background-color: brown;
+    margin: 2px;
+    width: 80px;
+}
+.slp4:hover{
+ background-color: grey;
+}
+.pls1{
+    background-color: black;
+    width: 200px;
+}
+.pls1:hover{
+background-color: grey;
+}
+.sls{
+    padding:50px;
+}
+.cr2{
+    position: relative;
+    left:1800px;
+}
+.cr2:hover{
+    background-color: white;
+    width:40px;
+
+}
+.cr3{
+    background-color: brown;
+}
+.cr:hover{
+background-color: black;
+height: 50px;
+width: 100px;
+}
+ </style>
+</head>
+<body>
+   
+  <div class="cr3">
+    <div class="cr">
+    <i class="fa fa-map-marker" style="font-size:42px;color:red">logo</i>
+    </div>
+    <div class="cr2">
+        <i class="fa fa-search" style="font-size:42px"></i>
+    </div>
+    </div>
+    <div class="main">
+    <div class="sp">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home"><i class="fa fa-plane" style="font-size:30px;color:black"></i>flight</a></li>
+            <li><a data-toggle="tab" href="#menu1"><i class="fa fa-bed" style="font-size:30px; color: black;"></i>hotel</a></li>
+            <li><a data-toggle="tab" href="#menu2"><i class="fa fa-automobile" style="font-size:30px;color: black;"></i>rental</a></li>
+          </ul>
+          <div class="tab-content">
+            <div id="home" class="tab-pane fade in active"> <br> 
+              <h3> Travel The World With Us</h3><br>
+              <div class="sp1">
+                <div>
+                <label for="fname">From</label><br>
+                <input type="text" id="name"  name="fname"  placeholder="departing from"></div><br>
+                <div class="sp2">
+                <label for="fname">To</label><br>
+                <input type="text" id="name"  name="fname"  placeholder="arriving at"></div>
+        </div><br>
+        <div class="sp2">   <button>  Search and find Dates</button></div>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+              <h2>Find the best hotels</h2>
+              Book a hotel with us and get the best fares and promotions.<br><br>
+
+              We know hotels - we know comfort.<br>
+         <div class="sl1"><br>  <button>search hotels</button> </div>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+              <h3>Best car rental in the world!</h3>
+             <b>DISCOUNT!</b> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs<br><br>
+              <div class="sl"><input type="text" id="name"  name="fname"  placeholder="Pick-up point"><br>
+              <br>
+              <button>Search availability</button></div>
+            </div>
+    </div>
+</div>
+</div>
+<div>
+<h2>good offers right now<br>
+up to 50% disscount.</h2></div>
+</div>
+<div class="slvp">
+<div class="items" style="background-image: url(./conq.jpg); background-repeat: no-repeat; background-size: cover; width: 800px; height: 600px;"></div>
+<div class="items" style="background-image: url(newyork.jpg); background-repeat: no-repeat; background-size: cover; width: 400px; height: 300px;"></div>
+<div class="items" style="background-image: url(pisa.jpg);background-repeat: no-repeat; background-size: cover; width: 400px; height: 300px"></div>
+<div class="items4" style="background-image: url(sanfran.jpg);background-repeat: no-repeat; background-size: cover; width: 400px; height: 300px"></div>
+<div class="items5" style="background-image: url(paris.jpg);background-repeat: no-repeat; background-size: cover; width: 400px; height: 300px"></div>
+</div>
+<h3>Explore the nature</h3><br>
+<h4>Travel with us and see nature at its finest</h4>
+<div class="slp">
+<div>
+    <img src="ocean.jpg"height="200">
+    <h2>West Coast, Norway</h2>
+Roundtrip from $79<br>
+Praesent tincidunt sed tellus ut rutrum sed vitae justo.<br>
+<div class="slp1"><h4>Buy Tickets</h4></div>
+</div>
+<div>
+    <img src="mountains.jpg"height="200">
+   <h2> Mountains, Austria</h2>
+   One-way from $39<br>
+    Praesent tincidunt sed tellus ut rutrum sed vitae justo.<br>
+    <div class="slp2"><h4>Buy Tickets</h4></div>
+</div>
+</div>
+<div class="slp3">
+   <h1> Get the best offers first!</h1>
+   <h2>Join our newsletter.</h2>
+   <label for="fname">Email</label><br>
+   <input  style="width: 1100px; "type="text" id="name"  name="fname"  placeholder="Your Email Adress"><br><br>
+  <div class="slp4"><h4>Subcribe</h4></div> 
+</div>
+<div class="sls">
+<h1>Contact</h1>
+<h3>Let us book your next trip!<br></h3>
+<i class="fa fa-map-marker" style="font-size:24px"> Chicago, US</i><br>
+<i class="fa fa-phone" style="font-size:24px"> Phone: +91******</i><br>
+<i class="fa fa-envelope" style="font-size:24px">Email: mail@mail.com</i><br>
+<input style="width: 1100px;" type="text" id="name"  name="fname"  placeholder="Name"><br><br>
+<input  style="width: 1100px; "type="text" id="name"  name="fname"  placeholder="Email"><br><br>
+<input style="width: 1100px;"type="text" id="name"  name="fname"  placeholder="Message"><br><br>
+<div class="pls1"><h3>SEND Message</h3></div>
+</div>
+</div>
+
+
+</body>
+</html>
